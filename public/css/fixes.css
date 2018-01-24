@@ -1,0 +1,58 @@
+/* recursively remove margin */
+.no-margin-r > * {
+    margin: 0 !important;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.padding-sm {
+    padding: 8px;
+}
+
+/* align center */
+.centered-child{
+    text-align: center;
+}
+
+.table-cell {
+    display:block;
+    height:100%;
+    width:100%;
+}
+
+.inline-form-buttons{
+    display: inline !important;
+    padding: 0 !important;
+}
+
+/****************      Custom .css                  *****************/
+
+.light-green-background {
+    background-color: #c8fbcb;
+    transition: 0.5s;
+}
+
+.light-green-background:hover {
+    background-color: #baedbd;
+    transition: 0.5s;
+}
+
+.fa-green {
+    color: #359a39;
+}
+
+.clickable_row{
+    cursor: pointer;
+    transition: 1s;
+}
+
+.clickable_row:hover{
+    background-color: #d9edf7 !important;
+    transition: 1s;
+}
+
+.iframe-message{
+    max-height: 500px;
+}
